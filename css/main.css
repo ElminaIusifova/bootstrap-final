@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Raleway');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #D1E8D8;
+    font-family: Raleway, Arial, Helvetica sans-serif;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 20px;
+    min-height: 100px;
+}
+
+.navbar {
+    padding: 1% 0;
+    font-size: 1.2em;
+    font-family: Raleway, Arial, Helvetica sans-serif;
+}
+
+
+
+
+.nav-link:hover{
+     
+    background-color: #2277E8;
+            color: #fff;
+            font-variant:small-caps;
+            box-shadow: 5px 5px;
+    transition: all ease-in-out 250ms;
+
+}
+
+form.form-inline.my-2.my-lg-0 {
+    margin-left: 19px;
+}
+
+.jumbotron {
+    background-color: #F1FFE5;
+/*
+    width: 100%;
+    height: 100%;
+*/
+/*
+    background-attachment:inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+    background-size: 100%;
+/*            height:500px;*/
+/*
+            filter:blur(3px);
+            -webkit-filter:blur(3px);
+*/
+}
+
+
+#btn{
+    font-family: Raleway, Arial, Helvetica sans-serif;
+}
+.box_form {
+    background-color: #D1E8D8;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: Bitter, "Times New Roman", Georgia, serif;
+    text-align: center;
+    margin-bottom: 100px;
+    background-color: #D1E8D8;
+}
+
+.title h1 {
+font-family: Bitter, "Times New Roman", Georgia, serif;
+    background-color: #D1E8D8;
+    font-size:s
+}
+
+.text-message {
+    padding: 0 50px 0 50px;
+}
+
+h2 {
+    font-family: Bitter, "Times New Roman", Georgia, serif;
+}
+
+.text-area {
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.form {
+    padding: 50px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.display-3{
+    font-family: Bitter, "Times New Roman", Georgia, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    -webkit-text-stroke:1.5px #2277E8;
+    
+}
+.lead{
+    
+    font-size: 2rem;
+    font-family: Bitter, "Times New Roman", Georgia, serif;
+    color: #2277E8;
+    text-shadow: 3px 3px 3px  grey;
+    font-weight: bold;
+    -webkit-text-stroke-width:1px;
+    
+}
+
+#btn{
+        margin-top: 50px;
+    }
+
+.site-footer {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, Arial, Helvetica sans-serif;
+    width: 100%;
+}
+
+#footer {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.footer-nav {
+    text-align: right;
+}
+
+.footer-social-icons {
+    margin: 0 auto;
+    display: block;
+    font-family: Raleway, Arial, Helvetica sans-serif;
+   
+    
+    
+}
+
+#follow {
+    text-align: right;
+}
+
+
+.footer-nav li a {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 35px;
+    display: block;
+    background: #fff;
+    margin: 0 10px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+}
+
+.footer-nav li a .fa {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+
+.footer-nav li a:hover .fa {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.footer-nav li a:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: blue;
+    transition: .5s;
+    z-index: 2;
+}
+
+
+.footer-nav li a:hover:before {
+    top: 0;
+}
+
+.footer-nav li:nth-child(1) a:before {
+    background: #3b5999;
+}
+
+.footer-nav li:nth-child(2) a:before {
+    background: #55acee;
+}
+
+.footer-nav li:nth-child(3) a:before {
+    background: #dd4b39;
+}
+
+.footer-nav li:nth-child(4) a:before {
+    background: #0077B5;
+}
+
+.text-white {
+    font-size: 1rem;
+}
+
+
+/* *************screen design********************/
+/***********************************************/
+
+@media only screen and (min-width: 600px) {
+    
+/*
+    #jmbtr {
+        
+        min-height: 400px;
+        
+}
+*/
+    .footer-nav li a{
+    width: 49px;
+    height: 50px;
+    line-height: 47px;
+    
+}
+    .display-3{
+        font-size: 3.5rem;
+    }
+    
+    .lead{
+        font-size: 2.5rem;
+    }
+    #btn{
+        margin-top: 30px;
+    }
+    }
+
+
+@media only screen and (min-width: 800px) {
+    
+/*
+    #jmbtr {
+        
+        min-height: 600px;
+        
+}
+*/
+    .footer-nav li a{
+    width: 49px;
+    height: 50px;
+    line-height: 47px;
+    
+}
+    .display-3{
+        font-size: 4rem;
+    }
+    
+    .lead{
+        font-size: 3rem;
+    }
+    #btn{
+        margin-top: 30px;
+    }
+    }
+
+@media only screen and (min-width: 1200px) {
+    
+/*
+    #jmbtr {
+        
+        min-height: 600px;
+        
+}
+*/
+    .footer-nav li a{
+    width: 49px;
+    height: 50px;
+    line-height: 47px;
+    
+}
+    .display-3{
+        font-size: 4.5rem;
+    }
+    
+    .lead{
+        font-size: 3.5rem;
+    }
+    #btn{
+        margin-top: 30px;
+    }
+    }
